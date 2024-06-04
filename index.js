@@ -24,5 +24,5 @@ function TestaCPF(strCPF) {
     if (Resto != parseInt(strCPF.substring(10, 11))) return false;
     return true;
 }
-var strCPF = "50513777857";
+var strCPF = "";
 console.log(TestaCPF(strCPF));
